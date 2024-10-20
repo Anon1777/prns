@@ -1,12 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 html, body {
     height: 100%;
-}
-
-.form-container {
     width: 100%;
-    max-width: 330px;
-    margin: auto;
+    position: relative
 }
 
 .animate-slide {
@@ -15,7 +10,7 @@ html, body {
   background-image: linear-gradient(to right, black 50%, white 0);
   background-position: right;
   background-size: 200% 200%;
-  transition: background-position 1.5s;
+  transition: background-position 0.75s;
   box-shadow: 2px 2px 5px black;
   margin-bottom: 15px;
 }
@@ -36,13 +31,6 @@ html, body {
   text-align: center;
 }
 
-#body1:not(#section1){
-    width: 100%;
-    height: 100%;
-    position: relative;
-    
-}
-
 #section1{
     position: absolute;
     top: 0;
@@ -54,19 +42,9 @@ html, body {
     background-size: cover;
     filter: blur(8px);
     height:100%;
-    position:static;
+    position:fixed;
 }
 
 .extend {
   padding-right: 10px;
-}
-#rotate{
-  font-family: "Special Elite", system-ui;
-  background-color: antiquewhite;
-  color:red;
-  padding: 20px 10px 0px 10px;
-  transform: rotate(22.5deg);
-  display:inline-block;
-  font-size: 30px;
-  margin-left: 30px;
 }
