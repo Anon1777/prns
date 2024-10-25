@@ -85,3 +85,24 @@ section{
 .bad {
   color: #d92323;
 }
+
+.certain {
+  color: #ffccff
+}
+
+.l {
+  text-align: left;
+}
+
+.c {
+  text-align: center;
+}
+
+.r {
+  text-align: right;
+}
+
+img {
+  width:100%;
+  border-radius: 25px;
+}
