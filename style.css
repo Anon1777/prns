@@ -105,4 +105,18 @@ section{
 img {
   width:100%;
   border-radius: 25px;
+  vertical-align: middle;
+}
+
+.lyrics {
+  vertical-align: middle;
+}
+
+h1.neutral {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-size: 64px;
+}
+.container {
+  margin-top: 50vh;
 }
