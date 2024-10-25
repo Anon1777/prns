@@ -1,50 +1,47 @@
 html, body {
-    height: 100%;
-    width: 100%;
-    position: relative
+  height: 100%;
+  width: 98VW;
+  position: relative;
 }
 
 .animate-slide {
-  width: 50%;
-  margin: auto;
-  background-image: linear-gradient(to right, black 50%, white 0);
-  background-position: right;
-  background-size: 200% 200%;
-  transition: background-position 0.75s;
-  box-shadow: 2px 2px 5px black;
-  margin-bottom: 15px;
+width: 50%;
+margin: auto;
+background-image: linear-gradient(to right, black 50%, white 0);
+background-position: right;
+background-size: 200% 200%;
+transition: background-position 0.75s;
+box-shadow: 2px 2px 5px black;
+margin-bottom: 15px;
 }
 
 .animate-slide:hover {
-  background-position: left;
+background-position: left;
+}
+
+.bg-img{
+height: 100vh;
+width: 100%;
+background-image: url('seychelles.png');
+  background-size: cover;
+  filter: blur(8px);
+  height:100%;
+  position:fixed;
 }
 
 .bg-text {
-  color: white;
+color: white;
+margin: 30vh auto 0 auto;
+width: 100%;
+padding: 20px;
+}
+
+section{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 95%;
-  padding: 20px;
-  text-align: center;
-}
-
-#section1{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: -17px; /* Increase/Decrease this value for cross-browser compatibility */
-    overflow-y: scroll;
-    background-image: url('seychelles.png');
-    background-size: cover;
-    filter: blur(8px);
-    height:100%;
-    position:fixed;
-}
-
-.extend {
-  padding-right: 10px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: -17px; /* Increase/Decrease this value for cross-browser compatibility */
+  width: 98vw;
+  margin: 0 auto 0 auto;
 }
