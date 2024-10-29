@@ -8,42 +8,51 @@ h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::s
   background-color: #0cc;
 }
 
-.animate-slide {
-width: 50%;
-margin: auto;
-background-image: linear-gradient(to right, #0cc 50%, white 0);
-background-position: right;
-background-size: 200% 200%;
-transition: background-position 0.75s;
-box-shadow: 2px 2px 5px black;
-margin-bottom: 15px;
-border: 5px solid black;
-padding: 10px;
+a{
+  color: #0cc;
 }
 
-.animate-slide::selection, .love::selection {
+a:hover{
+  color: #8cc;
+}
+
+.animate-slide {
+  width: 50%;
+  margin: auto;
+  background-image: linear-gradient(to right, #0cc 50%, white 0);
+  background-position: right;
+  background-size: 200% 200%;
+  transition: background-position 0.75s;
+  box-shadow: 2px 2px 5px black;
+  margin-bottom: 15px;
+  border: 5px solid black;
+  padding: 10px;
+}
+
+.animate-slide::selection, .love::selection, a::selection {
   background-color: #000;
 }
 
 .animate-slide:hover {
-background-position: left;
+  background-position: left;
 }
 
 .bg-img{
-height: 100vh;
-width: 100%;
-background-image: url('seychelles.png');
+  height: 100vh;
+  width: 100%;
+  background-image: url('seychelles.png');
   background-size: cover;
   filter: blur(8px);
+  transform: scale(1.025);
   height:100%;
   position:fixed;
 }
 
 .bg-text {
-color: white;
-margin: 30vh auto 0 auto;
-width: 100%;
-padding: 20px;
+  color: white;
+  margin: 30vh auto 0 auto;
+  width: 100%;
+  padding: 20px;
 }
 
 section{
@@ -60,6 +69,12 @@ section{
   backdrop-filter: blur(128px);
   border-radius: 25px;
   border: 3px solid black;
+  margin-top: 50vh;
+  background-color: #0000007f
+}
+
+.header, .content {
+  color: white;
 }
 
 .row {
@@ -108,15 +123,56 @@ img {
   vertical-align: middle;
 }
 
-.lyrics {
-  vertical-align: middle;
-}
-
-h1.neutral {
+#cw {
+  color: #fed141;
   font-family: Helvetica, sans-serif;
   text-align: center;
-  font-size: 64px;
+  font-size: 60px;
 }
-.container {
-  margin-top: 50vh;
+
+.lyrics{
+  color: white;
+  padding: 5px 5px 0 10px;
+  min-height: 132.83px;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 132.83px;
+}
+
+.lyr{
+  height: 50%;
+  vertical-align: middle;
+  line-height: normal !important;
+}
+
+.ajrtmm{
+  background-color: #84765C7f;
+}
+
+.cpmots{
+  background-color: #0718607f;
+}
+
+.wwtna{
+  background-color: #8f6e777f;
+}
+
+.wwicimi {
+  background-color: #802f007f;
+}
+
+.wwtwsi {
+  background-color: #177acf7f;
+}
+
+.tsm {
+  background-color: #8848487f;
+}
+
+.idma2 {
+  background-color: #9f20277f;
+}
+
+.y90125{
+  background-color: #76777c7f;
 }
