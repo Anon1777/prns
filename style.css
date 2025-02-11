@@ -70,7 +70,15 @@ section{
   border-radius: 25px;
   border: 3px solid black;
   margin-top: 50vh;
-  background-color: #0000007f
+  background-color: #0000007f;
+  margin-bottom: 300px;
+}
+
+.container-lite {
+  backdrop-filter: blur(128px);
+  border-radius: 25px;
+  border: 3px solid black;
+  background-color: #0000007f;
 }
 
 .header, .content {
@@ -115,6 +123,11 @@ section{
 
 .r {
   text-align: right;
+}
+
+.underline {
+  text-decoration: dashed underline;
+  display: inline-block;
 }
 
 img {
@@ -175,4 +188,12 @@ img {
 
 .y90125{
   background-color: #76777c7f;
+}
+
+.tiwbfl{
+  background-color: #4c55557f;
+}
+
+.ptt{
+  background-color: #9f06017f;
 }
