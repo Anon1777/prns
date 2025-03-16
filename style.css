@@ -4,8 +4,9 @@ html, body {
   position: relative;
 }
 
-h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, span::selection{
+h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, span::selection, a::selection, i::selection, strong::selection, b::selection, img::selection, br::selection{
   background-color: #0cc;
+  color: black;
 }
 
 a{
@@ -27,10 +28,6 @@ a:hover{
   margin-bottom: 15px;
   border: 5px solid black;
   padding: 10px;
-}
-
-.animate-slide::selection, .love::selection, a::selection {
-  background-color: #000;
 }
 
 .animate-slide:hover {
@@ -127,7 +124,7 @@ section{
 
 .underline {
   text-decoration: dashed underline;
-  display: inline-block;
+  display: inline;
 }
 
 img {
